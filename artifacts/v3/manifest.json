@@ -1,0 +1,21 @@
+{
+  "version": "v3",
+  "architecture": "YOLO26s-cls",
+  "weights_file": "model.pt",
+  "weights_sha256": "80b9d523eaa2e32608c37a7c498c79fe341f755e0b8bfb512dd2c88b65ab2d44",
+  "base_weights_sha256": "816790029d5df3fef358f03c8144b96339d8824ee25577aeda8be0963e5c5f09",
+  "classes": [
+    "AnnualCrop",
+    "Forest",
+    "Highway",
+    "Industrial",
+    "Residential",
+    "River",
+    "SeaLake"
+  ],
+  "split_digest": "007745a6912f88fb2274a91eec847deb9e84100680ddf42206feaff3fde26500",
+  "image_size": 128,
+  "preprocess_id": "ultralytics-classify-default-128",
+  "review_score_threshold": 0.5,
+  "review_threshold_status": "chosen on candidate validation only; not calibrated"
+}

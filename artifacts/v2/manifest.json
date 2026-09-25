@@ -1,0 +1,31 @@
+{
+  "version": "v2",
+  "architecture": "MobileNetV3-Small/ImageNet-head-only",
+  "weights_file": "model.pt",
+  "weights_sha256": "64c5457c6281bd8ec05c07c5206e6f9e1675bab67f4361b9e814848192381de2",
+  "classes": [
+    "AnnualCrop",
+    "Forest",
+    "Highway",
+    "Industrial",
+    "Residential",
+    "River",
+    "SeaLake"
+  ],
+  "split_digest": "007745a6912f88fb2274a91eec847deb9e84100680ddf42206feaff3fde26500",
+  "image_size": 224,
+  "preprocess_id": "resize-full-tile-224-imagenet-normalize",
+  "mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "best_val_accuracy": 0.9523809523809523,
+  "review_score_threshold": 0.5,
+  "review_threshold_status": "chosen on candidate validation only; not calibrated"
+}
