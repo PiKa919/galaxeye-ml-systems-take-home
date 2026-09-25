@@ -4,6 +4,8 @@ This repository contains three image classifiers trained on the dataset supplied
 
 The models classify 64×64 RGB tiles into seven land-use classes. The local service accepts a tile, runs the selected model on CPU, and stores the prediction and a local copy of the image. FastAPI provides the API. Streamlit provides the viewer.
 
+![GalaxEye Tile Lab model reports comparing v1, v2, and v3](docs/images/model-reports.png)
+
 ## Install
 
 Install Python 3.12 and `uv`, then run:
